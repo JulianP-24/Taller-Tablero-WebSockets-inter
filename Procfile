@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT $JAVA_OPTS -jar target/BBAppstarter-0.0.1-SNAPSHOT.jar
+web: java -cp target/classes;target/dependency/* edu.escuelaing.arsw.interactiveblackboard.BBAppStarter
